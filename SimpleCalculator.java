@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 public class SimpleCalculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(String.class.cast(System.in == null ? null : System.in));
+        Scanner scanner = new Scanner(System.in);
+        
         
         System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
